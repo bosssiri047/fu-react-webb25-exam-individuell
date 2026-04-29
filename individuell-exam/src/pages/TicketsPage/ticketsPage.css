@@ -1,0 +1,36 @@
+.ticket-title {
+    text-align: center;
+    color: var(--text-pink);
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+.searchbar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .searchbar {
+        background-color: var(--searchbar);
+        border: none;
+        padding: 0.65rem 0;
+        width: 300px;
+    }
+
+    .magnify {
+        position: absolute;
+        left: 0;
+        color: var(--searchbar);
+        padding-left: 0.5rem;
+    }
+}
+
+.ticket__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

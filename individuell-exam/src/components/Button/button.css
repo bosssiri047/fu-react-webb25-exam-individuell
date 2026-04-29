@@ -1,0 +1,12 @@
+.btn {
+    background-color: var(--btn);
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    color: var(--text-white);
+    font-family: var(--font-sub);
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+.singlepage-wrapper {
+
+    .single__title {
+        text-align: center;
+        color: var(--text-pink);
+        font-family: var(--font-primary);
+        font-weight: 600;
+        font-style: italic;
+        letter-spacing: 1px;
+        margin: 2rem 0;
+    }
+
+    .single__subtitle {
+        text-align: center;
+        color: var(--text-grey);
+        font-family: var(--font-sub);
+        font-weight: 350;
+        font-style: italic;
+        letter-spacing: 1px;
+        padding: 0 5rem;
+    }
+}
+

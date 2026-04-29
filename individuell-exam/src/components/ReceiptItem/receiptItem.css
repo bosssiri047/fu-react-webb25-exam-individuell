@@ -1,0 +1,101 @@
+.receipt-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--text-white);
+    width: 75vw;
+    margin: 5rem auto;
+
+    .container-label {
+        color: var(--receipt-border);
+        font-family: var(--font-sub);
+        font-weight: 700;
+        font-size: 0.75rem;
+    }
+
+    .what-container, .where-container, .date-container, .info-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.5rem;
+    }
+   
+    .what-container {
+        gap: 0.5rem;
+        border-bottom: 1px dotted var(--receipt-border);
+        margin-top: 0.75rem;
+        padding-bottom: 1rem;
+        
+        .receipt__name {
+            font-family: var(--font-primary);
+            color: var(--text-pink);
+            font-weight: 700;
+            font-style: italic;
+            font-size: 1.75rem;
+        }
+    }
+
+    .where-container {
+        gap: 0.5rem;
+        border-bottom: 1px dotted var(--receipt-border);
+        padding-bottom: 2rem;
+        padding-top: 0.75rem;
+        background-color: var(--receipt-bg1);
+        
+        .receipt__where {
+            font-family: var(--font-sub);
+            font-weight: 600;
+            font-size: 1.25rem;
+            color: var(--text-receipt-grey);
+        }
+    }
+
+    .date-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px dotted var(--receipt-border);
+        background-color: var(--receipt-bg2);
+
+        .when-container, .from-container, .to-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            color: var(--text-receipt-grey);
+            font-family: var(--font-sub);
+            font-weight: 700;
+            font-size: 0.75rem;
+            padding: 0.25rem;
+        }
+        
+        .when-container {
+            border-right: 1px dotted var(--receipt-border);
+            padding-right: 1rem;
+        }
+
+        .to-container {
+            border-left: 1px dotted var(--receipt-border);
+            padding-left: 1rem;
+        }
+    }
+
+    .info-container {
+        gap: 0.5rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.5rem;
+        color: var(--text-receipt-grey);
+        font-family: var(--font-sub);
+        font-weight: 700;
+        font-size: 0.75rem;
+        background-color: var(--receipt-bg3);
+    }
+
+    .barcode-container {
+        display: flex;
+        background-color: var(--receipt-barcode2);
+        .barcode {
+            justify-self: center;
+            align-self: center;
+            letter-spacing: 0.5rem;
+            width: 100vw;
+        }
+    }
+}

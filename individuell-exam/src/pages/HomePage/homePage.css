@@ -1,0 +1,24 @@
+.homepage-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    
+    .logo-title {
+        color: var(--text-pink);
+        font-family: var(--font-primary);
+        font-weight: 600;
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+
+    .logo-subtitle {
+        color: var(--text-white);
+        font-family: var(--font-sub);
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+    
+}
